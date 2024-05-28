@@ -1,15 +1,12 @@
 #include<stdio.h>
-int sum(int a,int b)
-{
-    return a+b;
-}
+
 int main()
 {
-    int num1,num2;
-    printf("Enter two numbers :");
-    scanf("%d %d",&num1,&num2);
+    int num1,num2,num3,num4,num5,sum;
+    printf("Enter five numbers :");
+    scanf("%d %d %d %d %d",&num1,&num2,&num3,&num4,&num5);
 
 
 
-    printf("The sum is :%d\n",sum(num1,num2));
+    printf("The result is = %d\n",num1+num2+num3+num4+num5);
 }
