@@ -1,2 +1,5 @@
 *.o
 *.exe
+.vscode
+.cph
+output
